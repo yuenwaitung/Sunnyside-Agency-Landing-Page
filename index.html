@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- displays site properly based on user's device -->
+	<link href="https://fonts.googleapis.com/css?family=Fraunces" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet" />
+	<link rel="stylesheet" href="styles.css" />
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+	<title>Frontend Mentor | Sunnyside agency landing page</title>
+</head>
+
+<body>
+	<nav class="navbar">
+		<!-- LOGO -->
+		<div class="logo">
+			<a href="" class=""> <img src="./images/logo.svg" alt="logo" /> </a>
+		</div>
+		<!-- NAVIGATION MENU -->
+		<ul class="nav-links">
+			<!-- USING CHECKBOX HACK -->
+			<input type="checkbox" id="checkbox_toggle" />
+			<label for="checkbox_toggle" class="hamburger">&#9776;</label>
+			<!-- NAVIGATION MENUS -->
+			<div class="menu">
+				<li><a href="">About</a></li>
+				<li><a href="">Services</a></li>
+				<li><a href="">Projects</a></li>
+				<li><a href="" class="navbar-contact">Contact</a></li>
+			</div>
+		</ul>
+	</nav>
+	<section class="section-header">
+		<div class="text-align-center">
+			<h1 class="section_heading">We are creatives</h1>
+			<div class="icon-arrow-down"> <img src="./images/icon-arrow-down.svg" alt="icon-arrow-down" /> </div>
+		</div>
+	</section>
+	<div class="main-content">
+		<div class="content_wrapper">
+			<h2>Transform your brand</h2>
+			<div class="margin-top-bottom">
+				<p> We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you. </p>
+			</div>
+			<a href="" class="button">
+				<div id="label" class="label">Learn More</div>
+				<div id="line" class="line" style="width: 97%; height: 0.625rem; background:#FEF2BA"></div>
+			</a>
+		</div>
+		<div id="image-transform" class="wrapper">
+			<picture>
+				<source media="(max-width: 767px)" srcset="./images/mobile/image-transform.jpg" /> <img src="./images/desktop/image-transform.jpg" class="pictures" alt="image-transform" /> </picture>
+		</div>
+		<div class="wrapper">
+			<picture>
+				<source media="(max-width: 767px)" srcset="./images/mobile/image-stand-out.jpg" /> <img src="./images/desktop/image-stand-out.jpg" class="pictures" alt="image-stand-out" /> </picture>
+		</div>
+		<div class="content_wrapper">
+			<h2>Stand out to the right audience</h2>
+			<div class="margin-top-bottom">
+				<p> Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
+			</div>
+			<a href="" class="button">
+				<div id="label_red" class="label">Learn more</div>
+				<div id="line_red" class="line red" style="width: 97%; height: 0.625rem; background:#FFDBD4"></div>
+			</a>
+		</div>
+		<div class="image-wrapper">
+			<div class="padding-left-right">
+				<div class="section_content">
+					<h3 class="text-align-center">Graphic design</h3>
+					<div class="margin-top-bottom">
+						<p class="text-align-center text-green"> Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention. </p>
+					</div>
+				</div>
+			</div>
+			<picture>
+				<source media="(max-width: 767px)" srcset="./images/mobile/image-graphic-design.jpg" /> <img src="./images/desktop/image-graphic-design.jpg" class="pictures small_image" alt="image-graphic-design" /> </picture>
+		</div>
+		<div class="image-wrapper">
+			<div class="padding-left-right">
+				<div class="section_content">
+					<h3 class="text-align-center">Photography</h3>
+					<div class="margin-top-bottom">
+						<p class="text-align-center text-blue"> Increase your credibility by getting the most stunning, high-quality photos that improve your business image. </p>
+					</div>
+				</div>
+			</div>
+			<picture>
+				<source media="(max-width: 767px)" srcset="./images/mobile/image-photography.jpg" /> <img src="./images/desktop/image-photography.jpg" class="pictures small_image" alt="image-photography" /> </picture>
+		</div>
+	</div>
+	<section class="client-testimonials">
+		<div class="page-padding">
+			<div class="container">
+				<div class="margin-bottom">
+					<h4 class="text-align-center">Client testimonials</h4> </div>
+				<div class="content-box">
+					<div class="flexbox">
+						<div class="content-margin-bottom">
+							<div class="text-align-center"> <img src="./images/image-emily.jpg" alt="image-emily" class="client-images" /> </div>
+						</div>
+						<div class="content-margin-bottom">
+							<p class="clients-text"> We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit. </p>
+						</div>
+						<div class="clients-margin-bottom">
+							<p class="clients-name">Emily R.</p>
+						</div>
+						<p class="clients-position">Marketing Director</p>
+					</div>
+					<div class="flexbox">
+						<div class="content-margin-bottom">
+							<div class="text-align-center"> <img src="./images/image-thomas.jpg" alt="image-thomas" class="client-images" /> </div>
+						</div>
+						<div class="content-margin-bottom">
+							<p class="clients-text"> Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience. </p>
+						</div>
+						<div class="clients-margin-bottom">
+							<p class="clients-name">Thomas S.</p>
+						</div>
+						<p class="clients-position">Chief Operating Officer</p>
+					</div>
+					<div class="flexbox">
+						<div class="content-margin-bottom">
+							<div class="text-align-center"> <img src="./images/image-jennie.jpg" alt="image-jennie" class="client-images" /> </div>
+						</div>
+						<div class="content-margin-bottom">
+							<p class="clients-text"> Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended! </p>
+						</div>
+						<div class="clients-margin-bottom">
+							<p class="clients-name">Jennie F.</p>
+						</div>
+						<p class="clients-position">Business Owner</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="gallery">
+		<picture>
+			<source media="(max-width: 767px)" srcset="./images/mobile/image-gallery-milkbottles.jpg" /> <img src="./images/desktop/image-gallery-milkbottles.jpg" alt="image-gallery-milkbottles" style="width:auto;" /> </picture>
+		<picture>
+			<source media="(max-width: 767px)" srcset="./images/mobile/image-gallery-orange.jpg" /> <img src="./images/desktop/image-gallery-orange.jpg" alt="image-gallery-orange" style="width:auto;" /> </picture>
+		<picture>
+			<source media="(max-width: 767px)" srcset="./images/mobile/image-gallery-cone.jpg" /> <img src="./images/desktop/image-gallery-cone.jpg" alt="image-gallery-cone" style="width:auto;" /> </picture>
+		<picture>
+			<source media="(max-width: 767px)" srcset="./images/mobile/image-gallery-sugar-cubes.jpg" /> <img src="./images/desktop/image-gallery-sugarcubes.jpg" alt="image-gallery-sugarcubes" style="width:auto;" /> </picture>
+	</section>
+	<footer>
+		<div class="page-padding">
+			<div class="footer-content">
+				<div class="footer-top">
+					<h5>sunnyside</h5> </div>
+				<div class="footer-bottom"> <a href="" class="link">About</a> <a href="" class="link">Services</a> <a href="" class="link">Projects</a> </div>
+				<div class="social-icons">
+					<a href="" class="social_link"> <img src="./images/icon-facebook.svg" class="icons" alt="icon-facebook" /> </a>
+					<a href="" class="social_link"> <img src="./images/icon-instagram.svg" class="icons" alt="icon-instagram" /> </a>
+					<a href="" class="social_link"> <img src="./images/icon-twitter.svg" class="icons" alt="icon-twitter" /> </a>
+					<a href="" class="social_link"> <img src="./images/icon-pinterest.svg" class="icons" alt="icon-pinterest" /> </a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="attribution"> Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a
+      >. Coded by <a href="#">Ivan Yuen</a>. </div>
+	<script src="./script/changecolorlabel.js"></script>
+</body>
+
+</html>
